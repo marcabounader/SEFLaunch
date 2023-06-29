@@ -1,0 +1,57 @@
+html{
+    background-color: rgb(0, 0, 0);
+}
+
+header{
+    background-color: red;
+    padding:10px;
+    border-radius:4px;
+    max-width: 100%;
+    color:white;
+    position:sticky;
+    top:0px;
+    z-index: 99;
+}
+header img{
+    text-align: left;
+    position:absolute;
+    top:0px;
+    left:5px;
+}
+header h1{
+    display: inline-block;
+    text-align: center;
+}
+
+.burgers{
+    display: grid;
+    grid-template-columns: auto auto;
+
+    
+}
+.burgers div{
+    color:orange;
+    text-align: center;
+    border:1px solid white;
+    margin:2px;
+    background-image: url("img/burger.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+} 
+.burgers h4{
+    color:red;
+}
+ul{
+    display:inline-block;
+}
+section img{
+    vertical-align:right;    
+}
+
+.burgers div li{
+    list-style: none;
+}
+footer{
+    color:red;
+}
+
