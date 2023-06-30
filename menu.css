@@ -29,24 +29,37 @@ header h1{
 
     
 }
+
+.burgers h4{
+    color:red;
+    text-align:center;
+}
+
 .burgers div{
-    color:orange;
-    text-align: center;
+    /* outline: 4px;
+    outline-style: dotted; */
     border:1px solid white;
     margin:2px;
     background-image: url("img/burger.jpg");
     background-size: contain;
     background-repeat: no-repeat;
+    background-position: right bottom;
 } 
-.burgers h4{
-    color:red;
+
+.burgers div:hover{
+    opacity:0.6;
 }
+
+.burgers a{
+    text-decoration: none;
+}
+
 ul{
+    color:orange;
     display:inline-block;
+    text-align:left;
 }
-section img{
-    vertical-align:right;    
-}
+
 
 .burgers div li{
     list-style: none;

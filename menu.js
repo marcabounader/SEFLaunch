@@ -14,12 +14,13 @@ var burgers=[
 burgers.forEach((burger) =>{
     d.innerHTML+=
     `<div>
+        <a href="#">
         <h4>${burger.name}</h4>
         <ul>
             <li>price: ${burger.price}</li>
             <li>calories: ${burger.calories}</li>
         </ul>
-
+        </a>
     </div>`;
 });
 
