@@ -17,8 +17,8 @@ burgers.forEach((burger) =>{
         <a href="#">
         <h4>${burger.name}</h4>
         <ul>
-            <li>price: ${burger.price}</li>
-            <li>calories: ${burger.calories}</li>
+            <li>Price: ${burger.price}</li>
+            <li>Calories: ${burger.calories}</li>
         </ul>
         </a>
     </div>`;
