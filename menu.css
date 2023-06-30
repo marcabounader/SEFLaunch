@@ -13,13 +13,11 @@ header{
     z-index: 99;
 }
 header img{
-    text-align: left;
-    position:absolute;
-    top:0px;
-    left:5px;
+    display:block;
+    float:left;
 }
 header h1{
-    display: inline-block;
+    display: block;
     text-align: center;
 }
 
@@ -30,9 +28,16 @@ header h1{
     
 }
 
+section h3{
+    text-align:center;
+    color:red;
+    background-color: orange;
+    margin:5px;
+}
 .burgers h4{
     color:red;
     text-align:center;
+    font-size:20px;
 }
 
 .burgers div{
@@ -68,3 +73,15 @@ footer{
     color:red;
 }
 
+@media only screen and (max-width: 600px) {
+    header{
+        max-height:130px;
+    }
+    header img{
+        width: 50px;
+    }
+    header h1{
+        font-size:15px;
+        clear:left;
+    }
+  }
