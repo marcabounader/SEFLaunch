@@ -13,15 +13,15 @@ var burgers=[
 
 burgers.forEach((burger) =>{
     d.innerHTML+=
-    `<div>
-        <a href="#">
+    `<a href="#">
+    <div>
         <h4>${burger.name}</h4>
         <ul>
             <li>Price: ${burger.price}</li>
             <li>Calories: ${burger.calories}</li>
         </ul>
-        </a>
-    </div>`;
+    </div>
+    </a>`;
 });
 
 
