@@ -75,13 +75,14 @@ footer{
 
 @media only screen and (max-width: 600px) {
     header{
-        max-height:130px;
+        max-height:100px;
+        
     }
     header img{
-        width: 50px;
+        width: 40px;
+        height:40px;
     }
     header h1{
         font-size:15px;
-        clear:left;
     }
   }
